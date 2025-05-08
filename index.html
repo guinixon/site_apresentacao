@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engenharia de Software & Robótica com LEGO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="unifasar.png" alt="Logo Engenharia de Software" class="logo" />
+        <div class="textos-header">
+        <h1>Engenharia de Software & Robótica</h1>
+        <p>Explorando o futuro com LEGO e programação</p>
+      </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h2>Robótica pode ser divertida e inspiradora</h2>
+              <p>
+                Apresentamos aos alunos do ensino médio como o curso de Engenharia de Software pode ser acessível, inovador e transformador através da robótica educacional com kits LEGO.
+              </p>
+              <button onclick="toggleSaibaMais()">Saiba mais</button>
+              <div id="saiba-mais" class="hidden">
+                <p>
+                  Utilizamos o Open Roberta, sensores e motores LEGO para desenvolver robôs interativos que ajudam a ensinar lógica de programação, criatividade e trabalho em equipe.
+                </p>
+              </div>
+            </div>
+            <img src="lego-robot.jpg" alt="Robô LEGO Cubo Mágico" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="beneficios" data-aos="fade-up">
+        <div class="container">
+          <h3>Por que essa apresentação é imperdível?</h3>
+          <div class="cards">
+            <div class="card" data-aos="fade-up"  data-aos-delay="300">
+              <h4>Aprendizado Lúdico</h4>
+              <p>Robôs e jogos para ensinar programação de forma prática e divertida.</p>
+            </div>
+            <div class="card" data-aos="fade-up"  data-aos-delay="500">
+              <h4>Contato com Engenharia</h4>
+              <p>Uma visão real do mundo tecnológico com ferramentas modernas.</p>
+            </div>
+            <div class="card" data-aos="fade-up"  data-aos-delay="700">
+              <h4>Inspiração Profissional</h4>
+              <p>Motivação para seguir carreiras em tecnologia, engenharia e inovação.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="contato" >
+        <div class="container">
+          <h3>Contato</h3>
+          <p>Email: unifasar@engenhariasoftware.com</p>
+          <p>Telefone: (31) 99999-9999</p>
+          <p>Instagram: <a href="#">@engenhariasoftware</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        © 2025 Engenharia de Software . Todos os direitos reservados.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>

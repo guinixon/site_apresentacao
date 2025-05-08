@@ -1,0 +1,140 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.header .container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+}
+
+.textos-header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background: linear-gradient(90deg, #000, #007bff);
+  padding: 40px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.hero {
+  background: #111;
+  padding: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.hero-text {
+  flex: 1 1 500px;
+}
+
+.hero-img {
+  flex: 1 1 400px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 122, 255, 0.5);
+}
+
+.hero button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: #005ecb;
+}
+
+.hidden {
+  display: none;
+  margin-top: 15px;
+}
+
+.beneficios {
+  background-color: #0a0a0a;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.beneficios h3 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #00aaff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  color: #00aaff;
+}
+
+
+.contato {
+  background-color: #111;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contato a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
